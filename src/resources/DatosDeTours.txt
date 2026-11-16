@@ -1,0 +1,5 @@
+Ensenada;Turistico;45000
+Lago Llanquihue;Turistico;50000
+Petrohue;Aventura;50000
+Teatro del Lago;Cultural;20000
+Volcán Osorno;Aventura;45000
