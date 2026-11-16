@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.util.ArrayList;
 
 public class GestorDeTours {
+    //Genera Array List linea por linea desde el archivo
     public ArrayList<Tour> cargaTXT(String rutaArchivo) {
         ArrayList<Tour> listaTours = new ArrayList<>();
 
@@ -22,7 +23,7 @@ public class GestorDeTours {
                     listaTours.add(nuevoTour);
                 }
             }
-        }catch (Exception e) {
+        }catch (Exception e) {//Detecta error de formato
             System.out.println("Error en la lectura del archivo: " +e.getMessage());
         }
         return listaTours;
